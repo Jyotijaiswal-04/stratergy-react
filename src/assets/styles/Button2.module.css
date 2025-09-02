@@ -1,0 +1,28 @@
+.btn2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: rgb(227, 161, 39) !important;
+}
+
+.icon {
+  display: inline-flex;
+  transition: transform 0.3s ease;
+}
+
+/* Move icon slightly right on hover */
+.btn2:hover .icon {
+  transform: translateX(5px);
+}

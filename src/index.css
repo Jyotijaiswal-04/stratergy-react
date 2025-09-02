@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #031119 !important;
+  color: #ffffffcc !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #e0e9f2 !important;
+}
+.btn-nav {
+  width: 200px;
+  background-color: #e3a127 !important;
+  color: #ffffffcc !important;
+  border-radius: 50%;
+}
+.heading1 {
+  font-size: 74px;
+  font-weight: bold;
+  width: 60%;
+}
+.p1 {
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
+.hr {
+  width: 80%;
+  padding: 10px;
+}
+Nav {
+  border: none !important;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+
+@media (max-width: 420px) {
+  .heading1 {
+    font-size: 50px;
+  }
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border: none !important;
+}
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+  color: #e3a127 !important;
+  background-color: #1b262c;
+  border-radius: 20px;
+
+  width: 200px !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: none !important;
+  border: none !important;
+}
+
+@media (max-width: 480px) {
+  .heading1 {
+    font-size: 50px;
+  }
+  .nav-fill .nav-item .nav-link,
+  .nav-justified .nav-item .nav-link {
+    margin-bottom: 8px !important;
+  }
+}
+@media (max-width: 768px) {
+  .nav-fill .nav-item .nav-link,
+  .nav-justified .nav-item .nav-link {
+    margin-bottom: 8px !important;
+  }
+}

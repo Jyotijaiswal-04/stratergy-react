@@ -1,0 +1,86 @@
+/* .navtab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+} */
+
+/* Container for all cards */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  background-color: #0f1a22; /* Dark background like your screenshot */
+  padding: 20px;
+}
+
+/* Card styles */
+.card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.cardimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+/* Zoom effect on hover */
+.card:hover .cardimage {
+  transform: scale(1.1);
+}
+
+/* Overlay styles */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.category {
+  color: #f7c948;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.title {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  background: #f7c948;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ffda70;
+}

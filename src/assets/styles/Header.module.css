@@ -1,0 +1,36 @@
+.Navbar {
+  /* background-color: #1b262c !important;
+  border-radius: 50px;
+  font-family: "Raleway", sans-serif;
+  padding: 5px 25px 5px 30px;
+  margin: 50px auto; */
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050; */
+  background-color: #1b262c !important;
+  border-radius: 50px;
+  font-family: "Raleway", sans-serif;
+  padding: 5px 25px 5px 30px;
+  margin: 20px auto; /* ऊपर-नीचे थोड़ा gap रहेगा */
+  max-width: 1200px; /* 👈 container जैसा width control */
+  width: 100%;
+}
+
+.a,
+navLinks {
+  font-family: "Raleway", sans-serif;
+  color: #ffffffcc;
+  text-decoration: none;
+  padding: 18px 15px;
+}
+.a:hover {
+  color: rgb(227, 161, 39);
+}
+.brand {
+  color: #ffffffcc;
+}
+.active {
+  color: rgb(227, 161, 39);
+}

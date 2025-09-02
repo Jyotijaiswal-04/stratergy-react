@@ -1,0 +1,60 @@
+.box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.iconBox {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  background-color: #1b262c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #e3a12748;
+  transition: all 0.3s ease-in-out;
+}
+.icon {
+  font-size: 32px;
+  color: #e3a127;
+  transition: transform 0.3s ease-in-out;
+}
+
+.text {
+  flex: 1;
+  background-color: #1b262c;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease-in-out;
+}
+.p1 {
+  color: rgba(255, 255, 255, 0.83);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.box h5 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #e0e9f2;
+}
+.stepText {
+  display: inline-block;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #e3a127;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1;
+}
+
+.box.left {
+  flex-direction: row-reverse;
+}

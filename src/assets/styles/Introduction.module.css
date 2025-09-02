@@ -1,0 +1,129 @@
+.main {
+  margin-top: 200px;
+}
+.introImg {
+  width: 100%;
+  height: auto;
+  animation: float 6s ease-in-out infinite;
+  position: relative;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  } /* move 20 px up */
+  100% {
+    transform: translateY(0);
+  }
+}
+.introMain {
+  position: absolute;
+  bottom: 25px;
+  left: 80%;
+  width: 220px;
+  height: auto;
+  border-radius: 10px;
+  background-color: rgba(16, 50, 68, 0.347);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrap1 {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 5px 5px;
+  gap: 50px;
+}
+.p1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+.p2 {
+  font-size: 15px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: rgb(227, 161, 39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.icon:hover {
+  transform: translateY(-6px); /* slight upward movement */
+}
+
+@media (max-width: 480px) {
+  .main {
+    margin-top: 250px;
+  }
+  .p1 {
+    font-size: 30px;
+  }
+
+  .p2 {
+    font-size: 12px;
+  }
+
+  .introText h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .introText {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .introText p {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .introImg {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .introMain {
+    /* left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+    width: 180px;
+    padding: 10px; */
+    display: none;
+  }
+
+  .wrap1 {
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .icon {
+    height: 32px;
+    width: 32px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    margin-top: 250px;
+  }
+  .introMain {
+    display: none;
+  }
+}

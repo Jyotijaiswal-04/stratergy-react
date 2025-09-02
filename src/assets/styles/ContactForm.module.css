@@ -1,0 +1,121 @@
+.iframe {
+  width: 100%;
+  height: 90%;
+}
+.formWraper {
+  background-color: #1b262c;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+}
+.h2 {
+  text-align: center;
+}
+.h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -83%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #e3a127;
+}
+.FormControl {
+  border-radius: 8px;
+  padding: 12px 15px 12px 45px;
+  height: 3.5rem;
+  /* color: var(--default-color); */
+  background-color: #1b262c;
+  font-size: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.cont {
+  position: relative;
+  margin-bottom: 500px;
+}
+.contactformContainer {
+  background-color: #0f1b26;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  position: absolute;
+  left: 350px;
+  bottom: -290px;
+}
+.heading {
+  text-align: center;
+}
+
+.contactformContainer h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #f0a500;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.contactform input,
+textarea {
+  background-color: #1d2a35;
+  border: 1px solid #2c3e50;
+  border-radius: 5px;
+  padding: 12px;
+  color: white;
+  width: 100%;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+.sendButton {
+  background-color: #f0a500;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.sendButton:hover {
+  background-color: #d18e00;
+}
+@media (max-width: 480px) {
+  .row {
+    flex-direction: column;
+  }
+  .contactformContainer {
+    position: absolute;
+    left: -5px;
+    bottom: -325px;
+  }
+}
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+  }
+  .contactformContainer {
+    position: absolute;
+    left: 10%;
+    bottom: -325px;
+    margin-bottom: 5px;
+  }
+}

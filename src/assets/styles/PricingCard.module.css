@@ -1,0 +1,75 @@
+.main {
+  /* width: 400px; */
+  height: 100%;
+  background-color: #1b262c;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.4s;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.iconBox {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #e3a12718;
+  margin-top: 20px;
+}
+.iconBox span {
+  font-size: 28px;
+  color: #e3a127;
+}
+.TopBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px 20px;
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+  padding: 10px 30px 20px;
+  position: relative;
+}
+.currency {
+  font-size: 24px;
+  vertical-align: top;
+  line-height: 1;
+  font-weight: 600;
+}
+.amount {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+}
+.month {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 2px;
+}
+.applicable {
+  padding: 20px 30px;
+  flex: 1;
+}
+.applicable ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.applicable li {
+  padding: 12px 0;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
