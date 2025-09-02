@@ -11,7 +11,7 @@ import { GoGraph } from "react-icons/go";
 import { MdOutlineCameraAlt } from "react-icons/md";
 import Cards1 from "./Global/Cards1";
 import Steps from "./Global/Steps";
-import Cta from "./Global/CTA";
+import CTA from "./Global/CTA";
 
 const Services = () => {
   const data = [
@@ -97,7 +97,7 @@ const Services = () => {
         <Steps />
       </Container>
       <Container fluid className="py-2">
-        <Cta />
+        <CTA />
       </Container>
     </div>
   );
